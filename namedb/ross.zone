@@ -1,0 +1,73 @@
+$TTL	7420
+@ IN  SOA  ns1 hostmaster ( 2005111703              ; Serial
+                                    3660                    ; Refresh
+                                    300                     ; Retry
+                                    7420                    ; Expire
+                                    7420 )                  ; Minimum
+
+                 IN  NS       ns1
+                 IN  NS       ns2
+                 IN  MX 10    mail ; GLOBALOK
+
+                 IN  RP   dns.b.thesanders.us. BCSSmail
+
+	         IN  A      70.97.122.163
+
+BCSSmail         IN  TXT    "Brandon CS Sanders"
+
+localhost        IN  A      127.0.0.1
+au               IN  A      66.249.16.230
+ns1              IN  A      72.29.77.243 ;ross also have unused 164 and 165
+ns2              IN  A      72.29.77.244  ;sol
+sol              IN  A      70.97.122.163 ;ross
+ross             IN  A      70.97.122.160 ;ross
+mail             IN  A      72.29.75.115  ;nimbleturtle
+2006             IN  CNAME  sol
+2007             IN  CNAME  sol
+2008             IN  CNAME  sol
+aboutus          IN  CNAME  au
+atomiki          IN  CNAME  sol
+bayle            IN  CNAME  sol
+bcss             IN  CNAME  sol
+blog             IN  CNAME  sol
+board            IN  CNAME  sol
+brandon          IN  CNAME  sol
+brandoncssanders IN  CNAME  sol
+contribute       IN  CNAME  sol
+cotor            IN  CNAME  sol
+dev              IN  CNAME  sol
+darcs            IN  CNAME  sol
+donate           IN  CNAME  sol
+ethan            IN  CNAME  sol
+ftp              IN  CNAME  sol
+git              IN  CNAME  sol
+hoops            IN  CNAME  sol
+inst             IN  CNAME  sol
+institute        IN  CNAME  sol
+legal            IN  CNAME  sol
+lewis            IN  CNAME  sol
+lion             IN  CNAME  sol
+news             IN  CNAME  sol
+ona              IN  CNAME  sol
+public           IN  CNAME  sol
+rails            IN  CNAME  sol
+repos            IN  CNAME  sol
+repositories     IN  CNAME  sol
+rose             IN  CNAME  sol
+ruse             IN  CNAME  sol
+ssh              IN  CNAME  @
+sketchvg         IN  CNAME  sol
+svn              IN  CNAME  sol
+tech             IN  CNAME  sol
+techie           IN  CNAME  sol
+techy            IN  CNAME  sol
+ted              IN  CNAME  sol
+tour             IN  CNAME  sol
+tours            IN  CNAME  sol
+vi               IN  CNAME  sol
+virtualinstitute IN  CNAME  sol
+wagon            IN  CNAME  sol
+wiki             IN  CNAME  sol
+wtanaka          IN  CNAME  sol
+www              IN  CNAME  sol
+wysdown          IN  CNAME  sol

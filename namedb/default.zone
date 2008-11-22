@@ -1,0 +1,53 @@
+$TTL	7420
+@ IN  SOA  ns1 hostmaster ( 2005111703              ; Serial
+                                    3660                    ; Refresh
+                                    300                     ; Retry
+                                    7420                    ; Expire
+                                    7420 )                  ; Minimum
+
+                 IN  NS       ns1
+                 IN  NS       ns2
+                 IN  MX 10    mail ; GLOBALOK
+
+                 IN  RP   dns.b.thesanders.us. BCSSmail
+
+	         IN  A      72.29.77.246
+
+BCSSmail         IN  TXT    "Brandon CS Sanders"
+
+localhost        IN  A      127.0.0.1
+ns1              IN  A      72.29.77.243
+ns2              IN  A      72.29.77.244
+sol              IN  A      72.29.77.245
+mail             IN  A      72.29.75.115
+bayle            IN  CNAME  sol
+bcss             IN  CNAME  sol
+blog             IN  CNAME  sol
+board            IN  CNAME  sol
+brandon          IN  CNAME  sol
+brandoncssanders IN  CNAME  sol
+dev              IN  CNAME  sol
+ethan            IN  CNAME  sol
+ftp              IN  CNAME  sol
+hoops            IN  CNAME  sol
+inst             IN  CNAME  sol
+institute        IN  CNAME  sol
+legal            IN  CNAME  sol
+lewis            IN  CNAME  sol
+lion             IN  CNAME  sol
+news             IN  CNAME  sol
+public           IN  CNAME  sol
+rose             IN  CNAME  sol
+ssh              IN  CNAME  @
+tech             IN  CNAME  sol
+techie           IN  CNAME  sol
+techy            IN  CNAME  sol
+ted              IN  CNAME  sol
+tour             IN  CNAME  sol
+tours            IN  CNAME  sol
+vi               IN  CNAME  sol
+virtualinstitute IN  CNAME  sol
+wiki             IN  CNAME  sol
+wtanaka          IN  CNAME  sol
+www              IN  CNAME  sol
+wysdown          IN  CNAME  sol
